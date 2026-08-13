@@ -63,7 +63,7 @@ André, Zagueiro, 3
 Thiago, Meia, 3
 Leo, Ataque, 5"""
 
-    texto_jogadores = st.text_area("Lista de Entrada:", value=exemplo_padrao, height=280)
+    texto_jogadores = st.text_area("Lista dos Jogadores:", value=exemplo_padrao, height=280)
 
 with col_dir:
     st.markdown("### ⚙️ Configurações do Sorteio")
